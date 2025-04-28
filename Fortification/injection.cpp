@@ -230,7 +230,7 @@ BOOL WINAPI DllMain(HINSTANCE hDll,DWORD dwReason,LPVOID lpReserved)
 
 			PrintText(8, "Thanks For Using Fortification! Got Any Questions? Contact Divin On Discord: blakadiv"); 
 			
-		    PrintConsoleString("ÿc4Welcome To Fortification Unleashed Created By Divin For Project Diablo 2");
+		    PrintConsoleString("Ã¿c4Welcome To Fortification Unleashed Created By Divin For Project Diablo 2");
 
 			TESTHANDLE = CreateThread(0,0,TestThread,0,0,0);
             if (TESTHANDLE)
@@ -364,6 +364,8 @@ DWORD ZefirHWID = 347064;
 
 bool Authentication()
 {
+	v_Authed = true;
+	
 	/*GetVolumeInformation API Used To Grab Specific Hardware ID*/
 	UCHAR szFileSys[255], szVolNameBuff[255]; DWORD dwMFL, dwSysFlags, dwErrorCode;
     GetVolumeInformation("C:\\", (LPTSTR)szVolNameBuff, 255, &dwErrorCode, &dwMFL, &dwSysFlags, (LPTSTR)szFileSys, 255);
