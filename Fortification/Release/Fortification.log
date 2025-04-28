@@ -1,0 +1,17 @@
+﻿Build started 25/07/2023 23:09:37.
+     1>Project "C:\Users\Admin\Desktop\Unleashed With Bot\Fortification\Fortification.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\Unleashed.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         Fortification.vcxproj -> C:\Users\Admin\Desktop\Unleashed With Bot\Release\Unleashed.dll
+       FinalizeBuildStatus:
+         Deleting file "Release\Unleashed.unsuccessfulbuild".
+         Touching "Release\Unleashed.lastbuildstate".
+     1>Done Building Project "C:\Users\Admin\Desktop\Unleashed With Bot\Fortification\Fortification.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.13

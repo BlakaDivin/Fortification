@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="TeleportPath">
+      <UniqueIdentifier>{be6e7e5a-9d50-40a8-9b56-49198cd3360e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Specific">
+      <UniqueIdentifier>{65b32b71-b185-42fc-b7e6-39e85eb96ee9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Offset">
+      <UniqueIdentifier>{4f445e5f-4886-4993-975f-5b72b90d37da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D2Intercepts">
+      <UniqueIdentifier>{a7884902-4414-4ba0-83d7-6880cbdf89da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SendPacket">
+      <UniqueIdentifier>{452b2bea-a42e-4b9b-89d5-40f2f3e74366}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D2Helpers">
+      <UniqueIdentifier>{06b1302a-089b-45b8-83f6-7bc2af5b45b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutoTele">
+      <UniqueIdentifier>{44b93f4e-56c2-46ed-ad3d-0e3a2822a25a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CCommon">
+      <UniqueIdentifier>{9e94799a-0bfa-4eed-8849-8c1a632f3224}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Injection">
+      <UniqueIdentifier>{40b85f8d-d705-4ea2-ae29-0fd8a15fe91b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CollisionMap">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="PickIt">
+      <UniqueIdentifier>{55c07e42-b96c-4341-8b7a-f48f73aa113a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Reveal">
+      <UniqueIdentifier>{3aee36a4-ae36-4c16-a253-e90012652a55}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CollisionMap.h">
+      <Filter>CollisionMap</Filter>
+    </ClInclude>
+    <ClInclude Include="TeleportPath.h">
+      <Filter>TeleportPath</Filter>
+    </ClInclude>
+    <ClInclude Include="SyncObj.h">
+      <Filter>Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="D2Structs.h">
+      <Filter>Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="D2Ptrs.h">
+      <Filter>Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="CMapIncludes.h">
+      <Filter>Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayEx.h">
+      <Filter>Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="Offset.h">
+      <Filter>Offset</Filter>
+    </ClInclude>
+    <ClInclude Include="D2Intercepts.h">
+      <Filter>D2Intercepts</Filter>
+    </ClInclude>
+    <ClInclude Include="SendPacket.h">
+      <Filter>SendPacket</Filter>
+    </ClInclude>
+    <ClInclude Include="D2Helpers.h">
+      <Filter>D2Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoTele.h">
+      <Filter>AutoTele</Filter>
+    </ClInclude>
+    <ClInclude Include="CCommon.h">
+      <Filter>CCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="injection.h">
+      <Filter>Injection</Filter>
+    </ClInclude>
+    <ClInclude Include="Vars.h">
+      <Filter>Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="PickIt.h">
+      <Filter>PickIt</Filter>
+    </ClInclude>
+    <ClInclude Include="Reveal.h">
+      <Filter>Reveal</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CollisionMap.cpp">
+      <Filter>CollisionMap</Filter>
+    </ClCompile>
+    <ClCompile Include="TeleportPath.cpp">
+      <Filter>TeleportPath</Filter>
+    </ClCompile>
+    <ClCompile Include="Offset.cpp">
+      <Filter>Offset</Filter>
+    </ClCompile>
+    <ClCompile Include="D2Intercepts.cpp">
+      <Filter>D2Intercepts</Filter>
+    </ClCompile>
+    <ClCompile Include="SendPacket.cpp">
+      <Filter>SendPacket</Filter>
+    </ClCompile>
+    <ClCompile Include="D2Helpers.cpp">
+      <Filter>D2Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoTele.cpp">
+      <Filter>AutoTele</Filter>
+    </ClCompile>
+    <ClCompile Include="CCommon.cpp">
+      <Filter>CCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="injection.cpp">
+      <Filter>Injection</Filter>
+    </ClCompile>
+    <ClCompile Include="PickIt.cpp">
+      <Filter>PickIt</Filter>
+    </ClCompile>
+    <ClCompile Include="Reveal.cpp">
+      <Filter>Reveal</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
