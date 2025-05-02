@@ -6,4 +6,8 @@ Project Diablo 2 Hack
 
 You'll need Visual Studio 2010 C++ Express to build the DLL. 
 
+Need help? Add me on discord: blakadiv
+
 Enjoy.
+
+Best regards, Divin.
